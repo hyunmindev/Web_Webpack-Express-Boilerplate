@@ -13,9 +13,15 @@
     "sourceType": "module"
   },
   "plugins": [
-//    "prettier"
+    "prettier"
   ],
   "rules": {
-//    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ]
   }
 }
