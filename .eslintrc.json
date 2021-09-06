@@ -22,6 +22,9 @@
       {
         "devDependencies": true
       }
+    ],
+    "import/extensions": [
+      "off"
     ]
   }
 }
